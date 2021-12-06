@@ -11,5 +11,11 @@
 }
 .about-text{
     text-align: justify;
-    padding-top: 70px;
+    padding-top: 120px;
+}
+
+@media  only screen and (max-width:688px){
+    .about-text{
+        padding-top: 30px;
+    }
 }

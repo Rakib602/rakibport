@@ -11,7 +11,7 @@ const Aboutme = () => {
                     data-aos-anchor-placement="center-bottom">
                 <h3 className="text-success"><u>About Me</u></h3>
                     <Col xs={12} md={12} lg={6}>
-                    <img src="https://i.ibb.co/cJyR2TG/New-Project-3-removebg-preview.png" alt="" className="img-fluid" />
+                        <img src="https://i.ibb.co/gJ9DvqH/2520-removebg-preview.png" alt="" className="img-fluid profile" />
                 </Col>
                     <Col xs={12} md={12} lg={6} className="about-text"  >
                     <h3>Hello I am Rakib</h3>

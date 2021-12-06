@@ -129,7 +129,7 @@ const Banner = () => {
                         data-aos-anchor="#example-anchor"
                         data-aos-offset="500"
                         data-aos-duration="500" >
-                    <img src="https://i.ibb.co/vqPF5ts/New-Project-2-removebg-preview.png" alt="" className="img-fluid"/>
+                        <img src="https://i.ibb.co/gJ9DvqH/2520-removebg-preview.png" alt="" className="img-fluid profile"/>
                 </Col>
             </Row>
             </div>
