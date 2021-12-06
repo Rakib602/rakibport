@@ -1,23 +1,47 @@
-import logo from './logo.svg';
 import './App.css';
-
+import Home from './Components/HomeItem/Home/Home';
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route
+} from "react-router-dom";
+import Projects from './Components/HomeItem/Projects/Projects';
+import RAMoto from './Components/Project/RAMoto';
+import FoodMood from './Components/Project/FoodMood';
+import Healthfirst from './Components/Project/Healthfirst';
+import Blog from './Components/Blog/Blog';
+import NavMenu from './Components/HomeItem/NavMenu/NavMenu';
+import Footer from './Components/HomeItem/Footer';
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Router>
+        <NavMenu></NavMenu>
+        <Switch>
+          <Route exact path="/">
+            <Home></Home>
+          </Route>
+          <Route exact path="/home">
+            <Home></Home>
+          </Route>
+          <Route path="/projects">
+            <Projects></Projects>
+          </Route>
+          <Route path="/RAmoto">
+            <RAMoto></RAMoto>
+          </Route>
+          <Route path="/FoodMood">
+            <FoodMood></FoodMood>
+          </Route>
+          <Route path="/Health">
+            <Healthfirst></Healthfirst>
+          </Route>
+          <Route path="/Blog">
+            <Blog></Blog>
+          </Route>
+        </Switch>
+        <Footer></Footer>
+      </Router>
     </div>
   );
 }

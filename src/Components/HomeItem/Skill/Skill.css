@@ -1,0 +1,48 @@
+.skillbody{
+  background-color: rgb(61, 61, 61);
+  color:white;
+  font-family: 'PT Serif', serif;
+  padding-top: 80px;
+  padding-bottom: 100px;
+}
+.skillbody p{
+  text-align: justify;
+}
+.info{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.htmlline{
+  height: 5px;
+  width: 80%;
+  background-color:rgb(43, 129, 43);
+}
+.cssline{
+  height: 5px;
+  width: 60%;
+  background-color:rgb(43, 129, 43);
+}
+.jsline{
+  height: 5px;
+  width: 50%;
+  background-color:rgb(43, 129, 43);
+}
+.reactline{
+  height: 5px;
+  width: 60%;
+  background-color:rgb(43, 129, 43);
+}
+.mongoline{
+  height: 5px;
+  width: 50%;
+  background-color:rgb(43, 129, 43);
+}
+
+@media  only screen and (max-width:688px){
+    .skillbody{
+        padding-top: 30px;
+    }
+  }
+
+

@@ -1,0 +1,15 @@
+.about-body{
+    background-color: honeydew;
+}
+.about{
+    color: black;
+    font-family: 'PT Serif', serif;
+    padding-top: 20px;
+}
+.about .typeeffect{
+    font-family: 'PT Serif', serif ;
+}
+.about-text{
+    text-align: justify;
+    padding-top: 70px;
+}

@@ -1,0 +1,38 @@
+.details-body{
+      font-family: 'PT Serif', serif;
+      background-color: rgb(44, 43, 43);
+      color: whitesmoke;
+}
+.details-img{
+    padding-top: 80px;
+}
+.tecnology{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    margin-bottom: 20px;
+}
+.social-link{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+@media  only screen and (max-width:688px){
+   .tecnology{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+.social-link{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+}
+.social-link div{
+    padding-bottom: 10px;
+}
+}
+
+@media  only screen and (max-width:450px){
+   .tecnology{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    
+}
+}
